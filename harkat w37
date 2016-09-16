@@ -1,1 +1,28 @@
-asd
+1. Selvitä tarkemmin mitä http:n eri metodit tekee
+2. Selvitä mitä meinaa response body
+3. Selvitä mitä meinaa safe ja idempotent
+
+1. GET - yleisin. resurssien haku
+  POST - esim lomakkeen tietojen lähettäminen palveluun
+  OPTIONS - Kysely palvelimen tai resurssin ominaisuuksista
+  HEAD - pyytää vain sivun otsikkotiedot
+  PUT - sivun tallettaminen
+  DELETE - sivun poistaminen
+  TRACE - palauttaa pyynnön sellaisenaan
+  CONNECT - pyytää yhteyttä, jää päälle
+
+2. sivun sisältö.
+3.  Safe: esim HEAD, GET, OPTIONS, TRACE tarkoitettu vaan tiedon hakuun. ei pitäisi vaikuttaa serverin tilaan.
+idempotent: Monella samallaisella pyynnöllä sama vaikutus kuin yhdellä. esim PUT ja DELETE metodit. Safe metodien pitäisi olla kanssa idempotent.
+
+**********************************************************
+
+1.Selvitä http:n status-koodit
+
+2.Mitä kaikkea on ja miten ne jaotellaan?
+
+1. 2xx-alkuiset kertovat onnistuneesta pyynnöstä
+  3xx-alkuiset kertovat sisällön löytyvän muualta kuin selain pyysi
+  4xx: kertovat selaimen tekemästä virheestä esim "404 not found"
+  5xx: palvelimen tekemien virheiden seurausta. yleisin 500 "internal server error"
+
