@@ -1,0 +1,26 @@
+Katso tämä hyvin havainnollistava video DNS:stä ja SELVITÄ seuraavat asiat:
+
+Mikä on:
+
+Root-domain
+ - root-domain on osoitteen viimeinen piste
+TLD
+ - Top level domains esimerkiksi net,org,gov,com
+Second Level Domain
+ - domainin jotka on annettu henkilöille tai yrityksille. ennen TLD:tä
+Sub Domain
+ - kaikki SLD:n alla olevat ovat sub domaineita tai hosti laitteita
+Host
+ - hosti serveri
+SELVITÄ vielä samasta videosta vielä mitä on domain-kyselyn eri palvelut ja vaiheet. (Vinkki: Sisältää väh. 4-5 vaihetta)
+- käyttäjän laite yrittää selvittää halutun sivun ip:tä esim www.google.fi
+- tarkastaa ensin hosti filen ja dns cachen locaalisesti
+- lähettää pyynnön paikalliselle DNS serverille (dns server tarkastaa cachen)
+- jos edellinen epäonnistuu lähettää serveri sen eteenpäin.
+- 4 osaa tämän jälkeen
+ - root domain server
+ - top level domains server
+ - second level domains server
+ - googlen name server
+- kaikki 4 käydään läpi ylhäältä alas pyyntöä käydessä.
+
