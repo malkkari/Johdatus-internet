@@ -1,0 +1,11 @@
+Bonus!
+
+Miten SYN-FLOOD hyökkäykseltä suojaudutaan?
+ - Filtteri
+ - backlogin kasvatus
+ - vähentää vastausaikaa (SYN-RECEIVED)
+ - SYN Cache ja cookies
+ - palomuurit ja proxyt
+Millainen on UDP flood hyökkäys?
+ - lähettää monta paketti satunnaisiin portteihin, jolloin uhri joutuu kuuntelemaan portteja ja huomaa ettei kukaan kuuntele vastapuolella
+ , ja joutuu tämän takia lähettämään ICMP destination Unreachable packetin jokaiseen.
