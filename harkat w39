@@ -1,0 +1,17 @@
+Selvitä miten TCP-protokollassa tapahtuu (käytä hyväksesi esim. linkeistä löytyvää Aalto-yliopiston materiaalia)
+
+Yhteyden muodostus
+  - "three-way handshake", asiakas(SYN-paketti) > palvelimelle > palvelin(SYN ja ACK-Paketti) > Asiakkaalle > asiakas(ACK) >palvelimelle.
+
+Yhteyden katkaisu
+ - Asiakas(FIN-paketti) > palvelimelle > palvelin(ACK ja FIN) > asiakkaalle > asiakas(ACK) > palvelimelle.
+  (palvelin voi lähettää ACK ja FIN paketin toisella "kädenpuristuksella yhtäaikaa tai erikseen jolloin serverin lähettämä FIN paketti lähetetään viimeisenä.
+
+Vuonhallinta
+ - vastaanottaja ilmoittaa aina jokaisen paketin jälkeen lähettäjälle paljonko dataa mahtuu puskuriin.
+ - vastaanottajan puskurin ollessa täynnä, lähettäjä jää odottamaan vastausta millonka tilaa vapautuu.
+ 
+Ruuhkanhallinta
+ - ruuhkaikkunan avulla säätelee lähetynopeutta ( nopemmin kun kaikki menee hyvin ja päinvastoin)
+ - ottaa huomioon vuonhallinnan
+ - 
