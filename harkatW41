@@ -1,0 +1,22 @@
+Selvitystehtävät
+
+Mitkä ovat keskeisiä eroja on RIP ja OSPF välillä?
+  - RIP pitää tallessa vain lähimmän reitittimen kohde osoitteelle. 
+    OSPF pitää tallessa kaikki verkon yhteydet.
+    RIP parempi pienille verkoille.
+    
+Mitä tarkoittaa lyhenteet IGP ja EGP ja mitä eroa niiden välillä on?
+ - Interior/Exterior Gateway Protocol.
+   Nimien mukaisesti, interior etsii verkko-reitin tiedot sisäisestä verkosta(autonomisen alueen sisällä). exterior eri verkkojen välillä ( lähettävät toisilleen tietoja eri autonomiselle alueille)
+
+Selvitä millä autonomisella alueella (Autonomous System) itse tällä hetkellä olet.
+  FUNETAS , FI
+Bonustehtäviä
+
+Tutki mitä ominaisuuksia BGP-protokollalla on
+ - reitittää liikenteen eri autonomisten järjestelmien välillä
+ - tukee luokatonta reititystä ja käyttää reittien yhdistämistä pitääkseen reititystaulujen koon pienenä.
+ - 
+  
+Tutustu Dijkstan algoritmiin
+ - etsii lyhimmän reitin yhdestä pisteestä kaikkiin muihin pisteisiin
