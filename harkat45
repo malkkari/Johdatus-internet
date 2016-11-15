@@ -1,0 +1,8 @@
+Kuinka NAT käsittelee UDP-yhteyden?
+ - Ajastin ottaa aikaa viimeisestä paketista. Mikäli tiettyyn aikaan ei ole tullut, tiedot pyyhitään.
+
+Kerro jokin konkreettinen esimerkkitapaus missä NAT voi aiheuttaa ongelmia (esim. joku protokolla tai sovellus). Kerro miksi näin käy? Miten tätä ongelmaa on kierretty?
+ - Peliservun hostaaminen. Kaveri ei pääse joinaamaan. Port forwarding.
+
+Millä tavalla sovellukset voivat kiertää NAT-ajastusta ettei yhteyttä katkaista?
+ - Keepalive
