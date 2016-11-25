@@ -1,0 +1,29 @@
+Mikä on RARP, mihin sitä käytetään ja mitä se vaatii toimiakseen?
+
+ - Reverse Addres Resolution Protocol. Antaa käynnistettävälle laitteelle IP-osoite sen oman mac-osoitteen perusteella.
+  Vaatii palvelimen joka tuntee osoitteiden välisen vastaavuuden.
+  
+Mitä on half- ja full-dublex, miten ne eroaa?
+
+ - half: kahden laitteen kommunikoidessa vain toinen pystyy kuuntelemaan ja toinen lähettämään. 
+   eli molemmat ei voi samanaikaisesti lähettämään ja vastaan ottamaan
+   
+ - Full: molemmat laitteetp ystyvät kuuntelemaan ja lähettämään saman aikaisesti
+ 
+Mitä uutta kytkin toi Ethernet-verkoon?
+
+ - Laajenti verkkoa. tähtimäinen rakenne.
+ 
+ 
+Selvitä millaisia ovat seuraavat lähetystyypit
+
+Anycast
+ - ryhmä yhdelle koneelle (lähin). 
+Broadcast
+ - lähettää kaikille
+Multicast
+ - monelle valitulle pisteelle
+Unicast
+ - vain yhdelle. 
+Geocast
+ - periaatteessa multicast mutta tunnistaa mahdolliset kohteet maantieteellisen sijainnin mukaan.
